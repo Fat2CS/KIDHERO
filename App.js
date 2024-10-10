@@ -1,6 +1,6 @@
-import React from 'react';
-   import AppNavigator from './src/navigation/AppNavigator';
+import { AppRegistry } from "react-native";
+import App from "./src/App.js"; // Assurez-vous que le chemin est correct
 
-   export default function App() {
-     return <AppNavigator />;
-   }
+AppRegistry.registerComponent("hero-chat-app", () => App);
+
+export default App;

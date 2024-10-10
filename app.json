@@ -1,6 +1,7 @@
 {
   "expo": {
     "name": "hero-chat-app",
+    "scheme": "herochat",
     "slug": "hero-chat-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -9,19 +10,36 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#ffffff",
+      "googleServicesFile": "./google-services.json"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.FSCDeveloper.heroChat",
+      "config": {
+        "googleSignIn": {
+          "reservedClientId": "com.googleusercontent.apps.264754374286-rf86aj1u87qnrgklqo807ver4livj6fj.apps.googleusercontent.com"
+        }
+      }
     },
     "android": {
+      "package": "com.FSCDeveloper.herokid",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "googleServicesFile": "./google-services.json"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [["@react-native-google-signin/google-signin"]],
+    "extra": {
+      "googleClientId": "264754374286-rf86aj1u87qnrgklqo807ver4livj6fj.apps.googleusercontent.com",
+      "eas": {
+        "projectId": "45a2e6b0-b0a1-419f-b93f-d4aa1721a0a6"
+      }
+    },
+    "owner": "fatou95"
   }
 }

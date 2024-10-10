@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "264754374286",
+    "project_id": "herokid-3e55b",
+    "storage_bucket": "herokid-3e55b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:264754374286:android:e026a802b89b18b4430bdf",
+        "android_client_info": {
+          "package_name": "com.FSCDeveloper.herokid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "264754374286-b61r9ull5odemmhdai5esio1pld510eu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.FSCDeveloper.herokid",
+            "certificate_hash": "20b9ddcabdcd4ce332ea3966728c371600cd60b3"
+          }
+        },
+        {
+          "client_id": "264754374286-rf86aj1u87qnrgklqo807ver4livj6fj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0_nBRBIMw1KZ17UfN2v2lz4liXpsi2Ws"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "264754374286-rf86aj1u87qnrgklqo807ver4livj6fj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
