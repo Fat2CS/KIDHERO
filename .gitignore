@@ -21,6 +21,7 @@ web-build/
 #fichiers
 src/.env
 src/config/*.js
+src/config/firebase.js
 
 
 # debug
