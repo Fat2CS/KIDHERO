@@ -18,6 +18,10 @@ web-build/
 
 # Metro
 .metro-health-check*
+#fichiers
+src/.env
+src/config/*.js
+
 
 # debug
 npm-debug.*
@@ -31,6 +35,7 @@ yarn-error.*
 # local env files
 .env*.local
 
-openaiConfig.js
+
+
 # typescript
 *.tsbuildinfo
